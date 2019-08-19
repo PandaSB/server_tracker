@@ -1,0 +1,28 @@
+{
+  "name": "server_tracker",
+  "version": "1.0.0",
+  "description": "tracer server to save data received by module",
+  "main": "server_tracker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PandaSB/server_tracker.git"
+  },
+  "keywords": [
+    "tracker",
+    "gsm",
+    "gps"
+  ],
+  "author": "BARTHELEMY Stephane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PandaSB/server_tracker/issues"
+  },
+  "homepage": "https://github.com/PandaSB/server_tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^4.1.0"
+  }
+}
